@@ -3,6 +3,7 @@
 hose {
     EMAIL = 'cd'
     NEW_VERSIONING = 'true'
+    BUILDTOOL = 'make'
 
     DEV = { config ->
         echo 'THIS IS MASTER'
