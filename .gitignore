@@ -3,3 +3,6 @@
 *.iml
 settings.xml
 target/
+.coverage
+coverage.xml
+*cache*
