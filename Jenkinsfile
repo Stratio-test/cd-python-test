@@ -4,6 +4,7 @@ hose {
     EMAIL = 'cd'
     NEW_VERSIONING = 'true'
     BUILDTOOL = 'make'
+    LANG = 'python'
 
     DEV = { config ->
         echo 'THIS IS MASTER'
