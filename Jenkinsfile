@@ -13,6 +13,6 @@ hose {
         doPackage(config)
         doStaticAnalysis(config)
         doDeploy(config)
-        doDocker(config)
-    }     
+        doDocker(conf:config, buildargs:['TESTARG=test','TESTARG2=test2'])
+    }
 }
